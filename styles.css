@@ -40,15 +40,14 @@ section {
 }
 
 .inicio-fundo {
-    background-image: url('img/market-trading-bg.jpg'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px; /* Borda arredondada */
+    background-image: none; /* Remove imagem */
+    background-color: var(--cinza-claro); /* Fundo cinza */
+    border-radius: 15px;
     width: 100%;
     height: 500px;
     padding: 40px;
     margin: 0 auto;
-    color: white;
+    color: var(--preto);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +63,7 @@ section {
 .esquerda-conteudo h1 {
     font-size: 3em;
     font-weight: 700;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .botao-inicio {
@@ -84,7 +83,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
 }
 
 #tropicalia {
@@ -118,15 +117,15 @@ section {
 }
 
 .fundo-galeria {
-    background: url('img/market-graph.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: none; /* Remove imagem de fundo */
+    background-color: var(--cinza-claro);
 }
 
 #contato {
-    background-image: url('img/financial-contact-bg.jpg');
-    background-size: cover;
+    background-image: none; /* Remove imagem de fundo */
+    background-color: var(--cinza-claro);
     padding: 4rem 0;
-    color: white;
+    color: var(--preto);
 }
 
 .formulario {
@@ -203,7 +202,7 @@ footer .bi:hover {
 
 /* Garantir que todas as imagens tenham bordas arredondadas */
 img {
-    border-radius: 15px; /* Ajuste o valor conforme necessário */
+    border-radius: 15px;
     max-width: 100%;
     height: auto;
 }
