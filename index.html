@@ -16,12 +16,12 @@
 <body>
     <header class="p-5 bg-dark text-light">
         <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/trembolona.jpg" alt="Logo de Trading" class="nav-img" loading="lazy">
+            <img src="img/trembolona.jpg" alt="Logo do site Trading Insights" class="nav-img" loading="lazy">
             <ul class="nav mt-5">
-                <li class="nav-item"><a class="nav-link text-light" href="#inicio">Início</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#estrategias">Estratégias</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#analisefundamental">Análise Fundamental</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#inicio" aria-label="Ir para o Início">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#estrategias" aria-label="Ir para Estratégias">Estratégias</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#analisefundamental" aria-label="Ir para Análise Fundamental">Análise Fundamental</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#contato" aria-label="Ir para o Contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -31,10 +31,9 @@
         <section id="inicio" class="my-5">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <!-- AQUI FOI MODIFICADO -->
                     <h1 class="display-4 fst-italic fw-bold" style="color: #6c757d;">Bem-vindo ao Trading Insights!</h1>
-                    <img src="img/financial-report.png" alt="Análise de Mercado" class="mb-3" width="563" height="278" loading="lazy">
-                    <a href="#estrategias" class="btn btn-warning btn-lg botao-inicio fw-semibold">Saiba mais sobre Estratégias</a>
+                    <img src="img/financial-report.png" alt="Gráfico financeiro representando análise de mercado" class="mb-3" width="563" height="278" loading="lazy">
+                    <a href="#estrategias" class="btn btn-warning btn-lg botao-inicio fw-semibold" aria-label="Saiba mais sobre Estratégias">Saiba mais sobre Estratégias</a>
                 </div>
             </div>
         </section>
@@ -44,7 +43,7 @@
                 <div class="col-5">
                     <h2>Estratégias de Trading</h2>
                     <p>Explore as principais estratégias de trading, como análise técnica, day trading e swing trading. Aprenda a identificar as melhores oportunidades no mercado financeiro.</p>
-                    <a href="#analisefundamental" class="btn btn-primary">Conheça a Análise Fundamental</a>
+                    <a href="#analisefundamental" class="btn btn-primary" aria-label="Ir para Análise Fundamental">Conheça a Análise Fundamental</a>
                 </div>
             </div>
         </section>
@@ -54,10 +53,10 @@
             <div class="container p-3 mt-3 fundo-galeria">
                 <div class="row justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/stock-market-analysis.jpg" class="img-fluid rounded-5" alt="Análise de Mercado" loading="lazy">
+                        <img src="img/stock-market-analysis.jpg" class="img-fluid rounded-5" alt="Imagem representando análise de mercado de ações" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/logo-financeiro.jpg" class="img-fluid rounded-5" alt="Relatório Financeiro" loading="lazy">
+                        <img src="img/logo-financeiro.jpg" class="img-fluid rounded-5" alt="Imagem representando relatório financeiro" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -70,18 +69,18 @@
                     <form>
                         <div class="form-group mb-3">
                             <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo" aria-label="Nome completo">
                         </div>
                         <div class="form-group mb-3">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email" aria-label="Email">
                         </div>
                         <div class="form-group mb-3">
                             <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Fale sobre seus interesses em trading ou investimentos"></textarea>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Fale sobre seus interesses em trading ou investimentos" aria-label="Mensagem"></textarea>
                         </div>
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar Mensagem</button>
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill" aria-label="Enviar Mensagem">Enviar Mensagem</button>
                         </div>
                     </form>
                 </div>
@@ -92,9 +91,9 @@
 
     <footer class="text-center p-3 fst-italic">
         <p>Acesse nossas redes sociais e fique por dentro das novidades do mercado financeiro:</p>
-        <i class="bi bi-whatsapp"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-twitter"></i>
+        <i class="bi bi-whatsapp" aria-label="WhatsApp"></i>
+        <i class="bi bi-instagram" aria-label="Instagram"></i>
+        <i class="bi bi-twitter" aria-label="Twitter"></i>
         <p class="mt-3">Desenvolvido por Trading Insights. Projeto fictício para educação financeira.</p>
     </footer>
 
@@ -102,3 +101,4 @@
 </body>
 
 </html>
+
