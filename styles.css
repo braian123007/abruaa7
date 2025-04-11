@@ -35,6 +35,10 @@ header .nav-link:hover {
     color: var(--laranja-claro);
 }
 
+header .nav-link:focus {
+    outline: 3px solid var(--laranja-claro);
+}
+
 section {
     padding-bottom: 5rem;
 }
@@ -73,136 +77,5 @@ section {
     width: 14em;
     height: 3em;
     font-weight: 600;
-    font-size: 1.2em;
-    letter-spacing: 0.5px;
-    transition: background-color 0.3s ease-in-out;
-}
+    font-size: 1.2em
 
-.botao-inicio:hover {
-    background-color: #d56a1c;
-}
-
-.display-4 {
-    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
-}
-
-#tropicalia {
-    position: relative;
-    padding-top: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    background-color: var(--cinza-claro);
-    border-radius: 10px;
-}
-
-#tropicalia .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-}
-
-#tropicalia h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.5em;
-    font-weight: 700;
-    color: var(--azul-escuro);
-    margin-bottom: 1rem;
-}
-
-#galeria {
-    background-color: var(--cinza-claro);
-    padding: 4rem 0;
-}
-
-.fundo-galeria {
-    background: none; /* Remove imagem de fundo */
-    background-color: var(--cinza-claro);
-}
-
-#contato {
-    background-image: none; /* Remove imagem de fundo */
-    background-color: var(--cinza-claro);
-    padding: 4rem 0;
-    color: var(--preto);
-}
-
-.formulario {
-    background-color: white;
-    padding: 3rem;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.formulario h2 {
-    font-size: 2.5em;
-    margin-bottom: 1.5rem;
-    color: var(--azul-escuro);
-}
-
-.formulario label {
-    font-weight: 600;
-    color: var(--azul-escuro);
-}
-
-.form-control {
-    background-color: var(--cinza-claro);
-    border-radius: 5px;
-    border: 1px solid var(--azul-claro);
-    font-size: 1rem;
-    padding: 1em;
-    margin-bottom: 1.5rem;
-}
-
-.form-control:focus {
-    border-color: var(--laranja-claro);
-    box-shadow: 0 0 5px var(--laranja-claro);
-}
-
-.formulario button {
-    background-color: var(--azul-claro);
-    border: none;
-    color: white;
-    font-weight: 700;
-    padding: 1em 2em;
-    border-radius: 30px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.formulario button:hover {
-    background-color: var(--azul-escuro);
-}
-
-footer {
-    background-color: var(--azul-escuro);
-    color: white;
-    padding: 2rem;
-}
-
-footer p {
-    margin: 0;
-    font-size: 1.2em;
-}
-
-footer .bi {
-    font-size: 2em;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
-}
-
-footer .bi:hover {
-    color: var(--laranja-claro);
-}
-
-/* Garantir que todas as imagens tenham bordas arredondadas */
-img {
-    border-radius: 15px;
-    max-width: 100%;
-    height: auto;
-}
